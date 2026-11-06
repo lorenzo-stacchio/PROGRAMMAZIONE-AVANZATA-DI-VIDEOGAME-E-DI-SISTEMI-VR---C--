@@ -6,7 +6,7 @@
 // - OVERRIDING: la derivata ridefinisce un metodo virtual della base con la STESSA firma.
 //   La parola chiave override (C++11) chiede al compilatore di controllare che sia davvero
 //   un override (se sbagli la firma, da' errore invece di creare un metodo nuovo).
-// - POLIMORFISMO: tramite un puntatore/referenza alla BASE si chiama il metodo della
+// - POLIMORFISMO (DINAMICO): tramite un puntatore/referenza alla BASE si chiama il metodo della
 //   classe VERA dell'oggetto, scelto a TEMPO DI ESECUZIONE.
 // - Metodo virtuale PURO (= 0): la base non lo implementa -> classe ASTRATTA,
 //   non si possono creare oggetti di quella classe.

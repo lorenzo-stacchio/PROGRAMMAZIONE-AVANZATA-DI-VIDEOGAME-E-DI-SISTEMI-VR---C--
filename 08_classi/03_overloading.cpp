@@ -3,10 +3,12 @@
 // OVERLOADING = piu' funzioni con lo STESSO NOME ma PARAMETRI DIVERSI
 // (numero o tipo). Il compilatore sceglie quale chiamare guardando gli argomenti,
 // a TEMPO DI COMPILAZIONE. Il solo tipo di ritorno diverso NON basta.
-//
+
+// POLIMORFISMO STATICO: il compilatore sceglie quale funzione chiamare a tempo di compilazione.
+
 // OVERLOADING DEGLI OPERATORI: si puo' ridefinire il significato di +, -, ==, <<, ...
 // per i propri tipi, scrivendo funzioni chiamate operator+, operator==, ecc.
-//
+// 
 // Da non confondere con l'OVERRIDING (vedi 04_ereditarieta_overriding.cpp):
 // una classe derivata RIDEFINISCE un metodo virtuale della classe base.
 

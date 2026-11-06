@@ -124,6 +124,7 @@ Le cartelle sono numerate, ma l'ordine di studio consigliato è leggermente dive
 | [03_overloading.cpp](08_classi/03_overloading.cpp) | Overloading di metodi e costruttori, overloading degli operatori su un `Vettore2D` (`+`, `-`, `*`, `+=`, `==`, `<<`), funzioni `friend`. |
 | [04_ereditarieta_overriding.cpp](08_classi/04_ereditarieta_overriding.cpp) | Ereditarietà, `protected`, `virtual`, `override`, `final`, classi astratte (`= 0`), polimorfismo con puntatori e referenze, differenza tra *overriding* e *hiding*, perché il distruttore della base deve essere `virtual`. |
 | [05_problema_diamante.cpp](08_classi/05_problema_diamante.cpp) | Ereditarietà multipla e problema del diamante: la versione senza `virtual` (due copie della base, accessi ambigui) e quella con ereditarietà virtuale (una sola copia, costruita dalla classe più derivata). |
+| [06_template_generics.cpp](08_classi/06_template_generics.cpp) | Template (i *generics* del C++) e polimorfismo parametrico: template di funzione e di classe, deduzione del tipo, parametri non di tipo (`Pila<T, N>`), valori di default, `static_assert`, specializzazione totale e parziale, template variadici. Confronto con i generics di Java e con il polimorfismo `virtual`. |
 
 > **Overloading o overriding?**
 > *Overloading* significa stesso nome con parametri diversi; il compilatore sceglie quale versione chiamare durante la compilazione.
